@@ -15,9 +15,6 @@ void input() {
     }
 }
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+
 
 
