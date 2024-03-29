@@ -30,7 +30,7 @@ void input() {
         cin >> arr[i];
     }
 }
-
+//swap the element at index x with the element at index y
 void swap(int x, int y)
 {
     int temp = arr[x];
@@ -51,6 +51,14 @@ void q_short(int low, int high)
     pivot = arr[low]; //step 2
     i = low + 1; //step 3
     j = high;   //step 4
+
+
+
+    while (i <= j) //step 10
+    {
+        //search for an element greater than pivot
+        while ((arr{i] <= pivot) && (i <= high)) //step 5
+    }
 }
 
 
